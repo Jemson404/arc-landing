@@ -1,4 +1,4 @@
-import { downloads } from "@/data/downloads";
+import { downloads } from "../data/downloads";
 import AnimatedDownloadButton from "./AnimatedDownloadButton";
 
 export default function DownloadGrid() {

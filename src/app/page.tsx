@@ -2,6 +2,7 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import SparkCycler from './components/SparkCycler'
 import ArchitectureDiagram from './components/ArchitectureDiagram'
+import Link from 'next/link'
 
 export default function HomePage() {
   return (
@@ -48,9 +49,11 @@ export default function HomePage() {
           <ArchitectureDiagram />
           
           <div className="text-center mt-12">
-            <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
-              Deep Dive into Philosophy
-            </button>
+            <Link href="/philosophy">
+              <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
+                Deep Dive into Philosophy
+              </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -91,12 +94,16 @@ export default function HomePage() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
-              Developer Detail
-            </button>
-            <button className="px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
-              Architecture MDX
-            </button>
+            <Link href="/developers">
+              <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
+                Developer Detail
+              </button>
+            </Link>
+            <Link href="/developers#architecture">
+              <button className="px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
+                Architecture MDX
+              </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -137,12 +144,16 @@ export default function HomePage() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
-              Investor One-Pager
-            </button>
-            <button className="px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
-              Reach Me
-            </button>
+            <Link href="/investors">
+              <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
+                Investor One-Pager
+              </button>
+            </Link>
+            <Link href="/#reach-me">
+              <button className="px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
+                Reach Me
+              </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -172,9 +183,11 @@ export default function HomePage() {
           </div>
           
           <div className="flex justify-center">
-            <button className="px-8 py-4 bg-accent text-accent-foreground rounded-xl font-medium text-lg hover:bg-accent/90 transition-colors">
-              Join the ARC Circle
-            </button>
+            <Link href="/believers">
+              <button className="px-8 py-4 bg-accent text-accent-foreground rounded-xl font-medium text-lg hover:bg-accent/90 transition-colors">
+                Join the ARC Circle
+              </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -194,12 +207,15 @@ export default function HomePage() {
           <SparkCycler />
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-16">
-            <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
-              Try the Dialogue Demo
-            </button>
-            <button className="px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
+            <Link href="/users">
+              <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
+                Try the Dialogue Demo
+              </button>
+            </Link>
+            <a
+to="/manifesto.pdf" download className="px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
               Download Manifesto
-            </button>
+            </a>
           </div>
         </div>
       </section>

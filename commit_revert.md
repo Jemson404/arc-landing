@@ -1,0 +1,1 @@
+Revert of commit 35e726bd274e7e3816c747eb4b13f4b23e6cb82b to restore the full homepage content.

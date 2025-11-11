@@ -1,4 +1,4 @@
-import DownloadGrid from "@/components/DownloadGrid";
+import DownloadGrid from "../../../../components/DownloadGrid";
 
 export const metadata = {
   title: "Downloads — ExtraLife ARC",

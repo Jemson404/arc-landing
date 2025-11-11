@@ -49,10 +49,8 @@ export default function HomePage() {
           <ArchitectureDiagram />
           
           <div className="text-center mt-12">
-            <Link href="/philosophy">
-              <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
-                Deep Dive into Philosophy
-              </button>
+            <Link href="/philosophy" className="inline-block px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
+              Deep Dive into Philosophy
             </Link>
           </div>
         </div>
@@ -94,15 +92,11 @@ export default function HomePage() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/developers">
-              <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
-                Developer Detail
-              </button>
+            <Link href="/developers" className="inline-block px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
+              Developer Detail
             </Link>
-            <Link href="/developers#architecture">
-              <button className="px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
-                Architecture MDX
-              </button>
+            <Link href="/developers#architecture" className="inline-block px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
+              Architecture MDX
             </Link>
           </div>
         </div>
@@ -144,15 +138,11 @@ export default function HomePage() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/investors">
-              <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
-                Investor One-Pager
-              </button>
+            <Link href="/investors" className="inline-block px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
+              Investor One-Pager
             </Link>
-            <Link href="/#reach-me">
-              <button className="px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
-                Reach Me
-              </button>
+            <Link href="/#reach-me" className="inline-block px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
+              Reach Me
             </Link>
           </div>
         </div>
@@ -183,10 +173,8 @@ export default function HomePage() {
           </div>
           
           <div className="flex justify-center">
-            <Link href="/believers">
-              <button className="px-8 py-4 bg-accent text-accent-foreground rounded-xl font-medium text-lg hover:bg-accent/90 transition-colors">
-                Join the ARC Circle
-              </button>
+            <Link href="/believers" className="inline-block px-8 py-4 bg-accent text-accent-foreground rounded-xl font-medium text-lg hover:bg-accent/90 transition-colors">
+              Join the ARC Circle
             </Link>
           </div>
         </div>
@@ -207,13 +195,10 @@ export default function HomePage() {
           <SparkCycler />
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-16">
-            <Link href="/users">
-              <button className="px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
-                Try the Dialogue Demo
-              </button>
+            <Link href="/users" className="inline-block px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors">
+              Try the Dialogue Demo
             </Link>
-            <a
-to="/manifesto.pdf" download className="px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
+            <a href="/manifesto.pdf" download className="inline-block px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors">
               Download Manifesto
             </a>
           </div>

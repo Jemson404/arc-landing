@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://arc-site.vercel.app/sitemap.xml
-
-# ARC-Reflective Use License v1.0 applies to all content
-# © 2025 Albira Rahman - Non-commercial use only

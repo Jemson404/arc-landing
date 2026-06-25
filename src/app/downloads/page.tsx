@@ -1,9 +1,10 @@
-import DownloadGrid from "@/components/DownloadGrid";
+import type { Metadata } from 'next'
+import DownloadGrid from '@/components/DownloadGrid'
 
-export const metadata = {
-  title: "Downloads — ExtraLife ARC",
-  description: "Official ARC documents: Bible, Handbook, Investor Leaflet, Roadmap, and Pitch Deck."
-};
+export const metadata: Metadata = {
+  title: 'Downloads — ARC',
+  description: 'Official ARC documents: Bible, Handbook, Investor Leaflet, Roadmap, and Pitch Deck.',
+}
 
 export default function DownloadsPage() {
   return (
@@ -16,5 +17,5 @@ export default function DownloadsPage() {
       </section>
       <DownloadGrid />
     </main>
-  );
+  )
 }

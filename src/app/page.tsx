@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 
 const ContactForm = () => {
     const [formState, setFormState] = useState({ role: '', name: '', email: '', message: '', license: false });
-    const [submissionStatus, setSubmissionStatus] = useState(null);
+    const [submissionStatus, setSubmissionStatus] = useState<string | null>(null);
 
-    const handleSubmit = async (event) => {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         const response = await fetch('https://api.web3forms.com/submit', {
             method: 'POST',

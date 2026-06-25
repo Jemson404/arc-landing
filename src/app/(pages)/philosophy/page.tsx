@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Philosophy — ARC',
-  description: 'The law of reflection, two-mind architecture, and the core truths behind ARC's contemplative AI framework.',
+  description: "The law of reflection, two-mind architecture, and the core truths behind ARC's contemplative AI framework.",
 }
 
 export default function PhilosophyPage() {

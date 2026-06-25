@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://arc-site.vercel.app'),
+  metadataBase: new URL('https://extralifestudio.com'),
   alternates: {
     canonical: '/',
   },
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     apple: '/favicon.svg',
   },
   other: {
-    'copyright': '© 2025 Albira Rahman, ARC Project',
+    'copyright': '© 2026 Albira Rahman, ARC Project',
     'license': 'ARC-Reflective Use License v1.0',
   },
 }
@@ -85,7 +85,7 @@ export default function RootLayout({
             <div className="container mx-auto px-6 py-8">
               <div className="flex flex-col gap-4 text-center text-sm text-muted-foreground">
                 <p>
-                  © 2025 ARC — Concept, Philosophy, and Design by{' '}
+                  © 2026 ARC — Concept, Philosophy, and Design by{' '}
                   <span className="font-medium text-foreground">Albira Rahman</span>.
                 </p>
                 <p>

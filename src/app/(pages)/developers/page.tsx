@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title: 'Developers — ARC',
+  description: 'Build with calm technology principles, local-first architecture, and deterministic prompts. Contribute to the ARC runtime.',
+}
+
 
 export default function DevelopersPage() {
   return (
@@ -26,7 +33,7 @@ export default function DevelopersPage() {
 
       <hr className="my-12" />
 
-      <h2>Architecture Overview</h2>
+      <h2 id="architecture">Architecture Overview</h2>
       <div className="bg-card/30 border border-border rounded-lg p-6 my-8">
         <pre className="text-sm text-muted-foreground">
 {`User Input
@@ -219,7 +226,7 @@ const exportBundle = await arc.exportUserData()`}
 
       <div className="my-8 text-center">
         <Link
-          href="/reach-me"
+          href="/#reach-me"
           className="inline-flex items-center px-8 py-4 bg-accent text-accent-foreground rounded-xl font-medium text-lg hover:bg-accent/90 transition-colors"
         >
           Talk to Founder
@@ -232,7 +239,7 @@ const exportBundle = await arc.exportUserData()`}
       <hr className="my-12" />
 
       <p className="text-sm text-muted-foreground text-center">
-        <strong>© 2025 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
+        <strong>© 2026 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
         All code will be released under permissive open-source licenses
       </p>
     </div>

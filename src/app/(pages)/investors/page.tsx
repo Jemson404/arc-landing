@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title: 'Investors — ARC',
+  description: 'Mirror framework, not attention engine. Invest in reflective AI that profits through peace, scaled thoughtfully. Seed round open.',
+}
+
 
 export default function InvestorsPage() {
   return (
@@ -223,7 +230,7 @@ export default function InvestorsPage() {
 
       <div className="my-8 text-center space-y-4">
         <Link
-          href="/reach-me"
+          href="/#reach-me"
           className="inline-flex items-center px-8 py-4 bg-accent text-accent-foreground rounded-xl font-medium text-lg hover:bg-accent/90 transition-colors"
         >
           Book a Call
@@ -245,7 +252,7 @@ export default function InvestorsPage() {
       <hr className="my-12" />
 
       <p className="text-sm text-muted-foreground text-center">
-        <strong>© 2025 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
+        <strong>© 2026 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
         This document contains forward-looking statements and should be considered alongside full disclosure materials
       </p>
     </div>

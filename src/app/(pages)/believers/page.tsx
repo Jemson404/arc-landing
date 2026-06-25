@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title: 'Believers — ARC',
+  description: 'Technology as a return to self-awareness. Join the ARC Circle and help build contemplative technology that serves human flourishing.',
+}
+
 
 export default function BelieversPage() {
   return (
@@ -193,7 +200,7 @@ export default function BelieversPage() {
       <div className="text-center space-y-6">
         <h3>Get Involved</h3>
         <Link
-          href="/reach-me"
+          href="/#reach-me"
           className="inline-flex items-center px-8 py-4 bg-accent text-accent-foreground rounded-xl font-medium text-lg hover:bg-accent/90 transition-colors"
         >
           Join the ARC Circle
@@ -236,7 +243,7 @@ export default function BelieversPage() {
       <hr className="my-12" />
 
       <p className="text-sm text-muted-foreground text-center">
-        <strong>© 2025 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
+        <strong>© 2026 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
         <em>"In the depth of winter, I finally learned that within me there lay an invincible summer." — Albert Camus</em>
       </p>
     </div>

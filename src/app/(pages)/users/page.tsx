@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title: 'Users — ARC',
+  description: 'Experience the dialogue between ARC-0 and ARC-1. Try the demo and generate your first ✦ Spark.',
+}
+
 
 export default function UsersPage() {
   return (
@@ -205,7 +212,7 @@ export default function UsersPage() {
             <p><strong>Waitlist for Full Version</strong></p>
             <p>Get early access to the complete ARC experience with conversation history, export features, and offline capabilities.</p>
             <Link
-              href="/reach-me"
+              href="/#reach-me"
               className="inline-flex items-center px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors"
             >
               Join Waitlist
@@ -267,7 +274,7 @@ export default function UsersPage() {
       <hr className="my-12" />
 
       <p className="text-sm text-muted-foreground text-center">
-        <strong>© 2025 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
+        <strong>© 2026 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
         <em>"The real voyage of discovery consists not in seeking new landscapes, but in having new eyes." — Marcel Proust</em>
       </p>
     </div>

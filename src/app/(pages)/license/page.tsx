@@ -169,7 +169,7 @@ export default function LicensePage() {
 
       <p className="text-sm text-muted-foreground text-center">
         <strong>© 2026 Albira Rahman</strong> — ARC Project<br />
-        Last updated: January 27, 2025
+        First published: January 27, 2025 · Last updated: June 27, 2026
       </p>
     </div>
   )

@@ -244,7 +244,7 @@ export default function InvestorsPage() {
             href="/arc_investor_onepage.pdf" 
             className="inline-flex items-center px-6 py-3 border border-border text-foreground rounded-xl font-medium hover:bg-card hover:border-accent/50 transition-colors"
           >
-            Download One-Page Summary (Coming Soon)
+            Download One-Page Summary
           </a>
         </div>
       </div>

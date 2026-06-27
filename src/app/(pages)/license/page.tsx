@@ -1,3 +1,11 @@
+import type { Metadata } from 'next'
+import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title: 'ARC-Reflective Use License v1.0',
+  description: 'Non-commercial license for ARC content. Attribution required. Covers personal, educational, and evaluative use.',
+}
+
 export default function LicensePage() {
   return (
     <div className="prose prose-invert max-w-none">
@@ -129,7 +137,7 @@ export default function LicensePage() {
       <p>For commercial licensing, partnership opportunities, or questions about this license:</p>
       <div className="my-6">
         <a 
-          href="/reach-me" 
+          href="/#reach-me" 
           className="inline-flex items-center px-6 py-3 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-colors"
         >
           Contact via the Reach Me page

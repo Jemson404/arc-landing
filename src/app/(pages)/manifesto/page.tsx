@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title: 'The ARC Manifesto',
+  description: 'A declaration of reflective intelligence. ARC chooses reflection over reaction, privacy over personalization, and meaning over metrics.',
+}
+
 
 export default function ManifestoPage() {
   return (
@@ -179,7 +186,7 @@ export default function ManifestoPage() {
       <hr className="my-12" />
 
       <p className="text-sm text-muted-foreground">
-        <strong>© 2025 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
+        <strong>© 2026 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0<br />
         For the full license terms, see <Link href="/license" className="text-accent hover:underline">/license</Link>
       </p>
     </div>

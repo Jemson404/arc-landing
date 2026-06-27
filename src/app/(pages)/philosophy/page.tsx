@@ -1,3 +1,10 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Philosophy — ARC',
+  description: "The law of reflection, two-mind architecture, and the core truths behind ARC's contemplative AI framework.",
+}
+
 export default function PhilosophyPage() {
   return (
     <div className="prose prose-invert max-w-none">
@@ -134,7 +141,7 @@ export default function PhilosophyPage() {
       </p>
 
       <p className="mt-8 text-sm text-muted-foreground">
-        <strong>© 2025 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0
+        <strong>© 2026 Albira Rahman</strong> — Licensed under ARC-Reflective Use License v1.0
       </p>
     </div>
   )

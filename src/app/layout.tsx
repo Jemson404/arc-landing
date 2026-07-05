@@ -14,9 +14,6 @@ export const metadata: Metadata = {
     telephone: false,
   },
   metadataBase: new URL('https://extralifestudio.com'),
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
     title: 'ARC — Two Minds. One Pulse.',
     description: 'A mirror framework for reflective AI: ARC-0 observes, ARC-1 explores, and their dialogue yields ✦ Sparks.',

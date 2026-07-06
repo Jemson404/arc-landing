@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import SocialDock from './components/SocialDock'
 
 export const metadata: Metadata = {
   title: 'ARC — Two Minds. One Pulse.',
@@ -113,6 +114,7 @@ export default function RootLayout({
             </div>
           </footer>
         </div>
+        <SocialDock />
       </body>
     </html>
   )

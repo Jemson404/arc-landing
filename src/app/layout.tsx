@@ -106,8 +106,8 @@ export default function RootLayout({
                   <a href="/sitemap.xml" className="hover:text-foreground transition-colors">
                     Sitemap
                   </a>
-                  <a href="/robots.txt" className="hover:text-foreground transition-colors">
-                    Robots
+                  <a href="/downloads" className="hover:text-foreground transition-colors">
+                    Downloads
                   </a>
                 </div>
               </div>

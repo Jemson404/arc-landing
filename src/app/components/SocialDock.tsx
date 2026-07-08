@@ -75,13 +75,13 @@ export default function SocialDock() {
   return (
     <div
       ref={dockRef}
-      className="fixed right-4 z-40 flex items-center gap-3 md:right-6"
+      className="pointer-events-none fixed right-4 z-40 flex items-center gap-3 md:right-6"
       style={{ bottom: 'calc(1rem + env(safe-area-inset-bottom))' }}
     >
       <ul
         id="social-dock-links"
         className={`m-0 flex list-none flex-row-reverse items-center gap-3 p-0 ${
-          isOpen ? '' : 'pointer-events-none'
+          isOpen ? 'pointer-events-auto' : 'pointer-events-none'
         }`}
         aria-hidden={!isOpen}
       >
@@ -115,7 +115,7 @@ export default function SocialDock() {
         aria-controls="social-dock-links"
         aria-label={isOpen ? 'Close social links' : 'Open social links'}
         title="Social links"
-        className={`flex h-12 w-12 items-center justify-center rounded-full border shadow-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent motion-reduce:transition-none ${
+        className={`pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border shadow-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent motion-reduce:transition-none ${
           isOpen
             ? 'border-accent/50 bg-card text-foreground'
             : 'border-border bg-card text-muted-foreground hover:border-accent/50 hover:text-foreground'
